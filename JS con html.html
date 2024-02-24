@@ -1,0 +1,25 @@
+<!-- JS nace orientado a la web -->
+
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Javascript</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="destino"></div>
+        <script>
+            
+            // javascript puro (no se reproduce en ningun sitio si no ponemos console)
+            var suma = 2+2; 
+            
+            //salidas (consola del navegador)
+            console.log(suma)
+            
+            //DOM: document object model: la forma que tiene JS para acceder al html
+            //cargando el DOM aparece el numero en el navegador tambien
+            document.getElementById("destino").innerHTML = suma
+        
+        </script>
+    </body>
+</html>

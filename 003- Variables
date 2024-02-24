@@ -1,0 +1,20 @@
+//VARIABLES
+
+//global
+var edad = 45;
+edad = 46;
+console.log("Tu edad es de: "+edad+" años");
+
+//local - solo sera visible a nivel de bloque
+let altura = 1;
+console.log("Tu altura es de: "+altura+" m");
+
+//constante - no puede variar - el identificador de la constante se escribe en mayusculas
+const PESO = 45;
+//PESO = 46;
+console.log("Tu edad es de: "+PESO+" años");
+
+    //ejemplo de constante PI
+    const PI = 3.1416;
+    //PI = 4;
+    console.log("El valor de PI es de: "+PI);

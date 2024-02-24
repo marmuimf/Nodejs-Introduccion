@@ -1,0 +1,73 @@
+//OPERADORES
+
+//aritmeticos
+console.log(4+3);
+console.log(4-3);
+console.log(4*3);
+console.log(4/3);
+console.log(4%3);//resto entero de la division
+
+//comparacion
+console.log(4<3);
+console.log(4>3);
+
+console.log(4<=3);
+console.log(4>=3);
+
+console.log(4==3);
+console.log(4!=3);
+
+console.log(4 == "4") //doble igualdad unicamente comprueba el valor
+console.log(4 === "4")//triple igualdad comprueba tb el tipo de dato - dato numerico != dato tipo cadena
+
+
+//booleanos
+    
+    //operador Ampersand - todas las parejas comparadas tienen que ser verdaderas
+    console.log(3 == 3 && 4 == 4);
+    console.log(3 == 3 && 4 == 4 && 5 == 5);
+    console.log(3 == 3 && 4 == 4 && 5 == 4);
+
+    //operador OR - no todas tienen que ser iguales
+    console.log(3 == 3 || 4 == 4 || 5 == 5);
+    console.log(3 == 3 || 4 == 4 || 5 == 4);
+    console.log(3 == 3 || 4 == 3 || 5 == 4);
+    console.log(3 == 2 || 4 == 3 || 5 == 4);
+
+
+console.log("-----------------------");
+
+//Operador de asignacion    
+var edad = 45;
+console.log("Tu edad es de:");
+console.log(edad);
+
+console.log("-----------------------");
+
+//Operador de encadenamiento
+var edad = 45;
+console.log("Tu edad es de: "+edad+" años");
+
+console.log("-----------------------");
+
+//Operadores de incremento y decremento
+var edad = 45;
+console.log("Tu edad es de: "+edad+" años");
+edad++; //incrementa un valor
+console.log("Tu edad es de: "+edad+" años");
+edad--; //decrementa un valor
+console.log("Tu edad es de: "+edad+" años");
+
+console.log("-----------------------");
+
+//Operadores abreviados
+var edad = 45;
+console.log("Tu edad es de: "+edad+" años");
+edad += 2; // edad = edad + 2, sumo 2 valores
+console.log("Tu edad es de: "+edad+" años");
+edad -= 2;
+console.log("Tu edad es de: "+edad+" años");
+edad *= 2;
+console.log("Tu edad es de: "+edad+" años");
+edad /= 2;
+console.log("Tu edad es de: "+edad+" años");

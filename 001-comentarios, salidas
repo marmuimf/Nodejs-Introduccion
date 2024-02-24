@@ -1,0 +1,19 @@
+// Esto es un comentario de una línea
+
+/*
+    Esto es un comentario
+    Esto sigue siendo un comentario
+*/
+
+//Salidas
+console.log("Hola mundo")
+console.warn("Advertencia en la consola");
+console.error("Esto es un error");
+console.table("Esto es una tabla");
+
+
+//tabla
+agenda = [];
+agenda[0] = "Mickey"
+agenda[1] = "Mouse"
+console.table(agenda);
